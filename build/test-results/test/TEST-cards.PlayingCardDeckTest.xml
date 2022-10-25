@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cards.PlayingCardDeckTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-06T11:24:46" hostname="MCR-ALPSMD6M" time="0.032">
+  <properties/>
+  <testcase name="deckRepresentationChangesWhenCardDealt" classname="cards.PlayingCardDeckTest" time="0.032"/>
+  <testcase name="dealChangesStateOfDeck" classname="cards.PlayingCardDeckTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

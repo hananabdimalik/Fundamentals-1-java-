@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99990d19-6918-43cd-a8cd-bf76c884c784" name="Changes" comment="Extracted playingCardDeck into its own class (encapsulation) and fixed test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/PlayingCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/PlayingCardDeck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cards/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cards/PlayingCardDeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/AnimalCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/AnimalCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/AnimalDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/AnimalDeck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cards/Snap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cards/Snap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cards/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cards/GameTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Aed66WpAmWIcAk5mPNFGeer3pE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hanan.abdimalik/apprentice-boot-camp-fundamentals-1/exercises/java&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cards" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cards" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Snap">
+    <configuration name="Snap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cards.Snap" />
+      <module name="Fundamentals_1_Java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.deckRepresentationChangesWhenCardDealt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cards.GameTest.deckRepresentationChangesWhenCardDealt&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlayingCardDeckTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cards.PlayingCardDeckTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'Fundamentals_1_Java.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'cards'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cards.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Snap" />
+        <item itemvalue="Gradle.PlayingCardDeckTest" />
+        <item itemvalue="Gradle.GameTest.deckRepresentationChangesWhenCardDealt" />
+        <item itemvalue="Gradle.Tests in 'Fundamentals_1_Java.test'" />
+        <item itemvalue="Gradle.Tests in 'cards'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99990d19-6918-43cd-a8cd-bf76c884c784" name="Changes" comment="" />
+      <created>1655373807033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655373807033</updated>
+      <workItem from="1655373808196" duration="14463000" />
+      <workItem from="1657101033453" duration="1664000" />
+      <workItem from="1657103281144" duration="4357000" />
+      <workItem from="1657114686748" duration="601000" />
+    </task>
+    <task id="LOCAL-00001" summary="Extracted suit into its own class (encapsulation)">
+      <created>1655378563137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655378563137</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Extracted playingCard into its own class (encapsulation)">
+      <created>1655384258989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655384258990</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Extracted playingCardDeck into its own class (encapsulation) and fixed test">
+      <created>1655386965409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655386965409</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Extracted suit into its own class (encapsulation)" />
+    <MESSAGE value="Extracted playingCard into its own class (encapsulation)" />
+    <MESSAGE value="Extracted playingCardDeck into its own class (encapsulation) and fixed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extracted playingCardDeck into its own class (encapsulation) and fixed test" />
+  </component>
+</project>
